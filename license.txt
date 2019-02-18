@@ -14,11 +14,4 @@
             <el-input v-model="carBase.engineNo"></el-input>
         </el-form-item>
     </el-col>
-    <el-col :span="6">
-        <el-form-item prop="vehicalBrandName" label="品牌型号：">
-            <el-input v-model="carBase.vehicalBrandName">
-                <template class="cursor" slot="append"><el-button class="cursor" @click="checkCar()" :loading="checking">校验</el-button></template>
-            </el-input>
-        </el-form-item>
-    </el-col>
 </el-row>
